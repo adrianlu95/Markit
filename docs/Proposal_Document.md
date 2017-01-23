@@ -2,7 +2,9 @@
 
 ##3.1 Verbal Description
 
-Working with awful database systems is miserable for any developer. Using the wrong database model for the given application adds unnecessary complications and can feel a lot like trying to fit a square peg into a round hole. Sure, with enough pain and force you can make it work eventually, but why go through the hassle? In this vein of thought, my plan for this semester is to shift MarkIt away from using Firebase, and start from the ground up with a brand new relational database written in either MySQL or SQLite. In addition, I plan to host the application using Heroku, so that should there be continued development on other platforms, there is just a single backend for them to communicate with. Beyond these goals, I also plan to continue standard development of MarkIt, and implement the features that we were unable to achieve last semester.
+This semester, I am going to enact a 2 step plan of operations on the preexisting application MarkIt. The first part of the plan is to rework the backend, and host it on Heroku, such that future development on other platforms can be performed much more smoothly. Currently, MarkIt has no unified backend, meaning that each platform, (Android, iOS, and Webapp) has to write their own backend and hope that they work together nicely. With a single backend, there will be far less time spent making sure that things cooperate properly. As part of this process I will also cease using the current Firebase database, and build a new database from the ground up that will more accurately and adequately suit the application's needs. To this end I will be using a relational database model using SQLite or MySQL.
+
+The second part of the plan is to finish implementing the rest of the feature list that were beyond our grasp last semester. This will include fleshing out the hub page, the profile page, and finally implementing important user-post interactions that the app is currently lacking.
 
 ##3.2 Justification
 
