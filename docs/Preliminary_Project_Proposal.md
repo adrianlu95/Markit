@@ -1,3 +1,3 @@
-#2.0 Preliminary Project Proposal
+#2.0.0 Preliminary Project Proposal
 
 Working with awful database systems is miserable for any developer. Using the wrong database model for the given application adds unnecessary complications and can feel a lot like trying to fit a square peg into a round hole. Sure, with enough pain and force you can make it work eventually, but why go through the hassle? In this vein of thought, my plan for this semester is to shift MarkIt away from using Firebase, and start from the ground up with a brand new relational database written in either MySQL or SQLite. In addition, I plan to host the application using Heroku, so that should there be continued development on other platforms, there is just a single backend for them to communicate with. Beyond these goals, I also plan to continue standard development of MarkIt, and implement the features that we were unable to achieve last semester.
