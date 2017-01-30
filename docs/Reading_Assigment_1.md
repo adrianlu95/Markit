@@ -17,7 +17,7 @@
 
 **Problem 2.4**
 : Like Microsoft Word, Google Docs [sic] provides some simple change tracking tools. Go to http://www.google.com/docs/about/ to learn more and sign up [if you do not have an account already]. Then create a document, save it, close it, reopen it, and make changes to it as you did in Exercise 1.
-> ![Google Docs Revision History](images/google_docs_pic.tiff)
+> ![Google Docs Revision History](images/google_docs_pic.PNG)
 
 **Problem 2.5, Stephens page 26**
 : What does JBGE stand for and what does it mean?
