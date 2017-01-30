@@ -1,4 +1,4 @@
-# Homework 1 - Due 01/30/17 @ 6pm PST
+# Reading Assignment 1
 
 **Problem 1.1**
 :  What are the basic tasks that all software engineering projects must handle?
