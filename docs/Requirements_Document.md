@@ -31,5 +31,26 @@ The database shall be recreated using a more appropriate database model. The dat
 5.2.3.1 The user should have a dynamic and tailored hub page that properly pulls user data from the database.
 
 ## 5.3 Performance Requirements
+5.3.1 The sales postings features shall load a picture, price, and general description of the item within 3 seconds from the time of the request.<br/>
+5.3.2 The email address provided shall notify the user if it is valid (i.e., it ends with .edu) within 1 second of typing a character.<br/>
+5.3.3 The sign-up page shall reject an email address that does not end with .edu within 3 seconds of typing the email.<br/>
+5.3.4 The login page shall allow a user to use the app within 5 seconds of pressing the login button.<br/>
+5.3.5 Items in the listing shall be tagged by common keywords or by user's choice.<br/>
+5.3.6 The user shall display the main home (“hub”) page of the academic institution of their choosing within 5 seconds of logging in.<br/>
+5.3.8 Search results shall load within 5 seconds.<br/>
+5.3.9 Refreshing sales postings shall take no more than 3 seconds<br/>
+5.3.10 Switching between the main tab bar items shall take no more than 1 second.<br/>
+5.3.11 The application shall be capable of supporting at least 20,000 users.<br/>
+5.3.12 The application shall require no more than 15% of CPU utilization.<br/>
+5.3.13 The database shall be able to handle at least 1,000 read transactions per hour.<br/>
 
 ## 5.4 Environmental Requirements
+**5.4.1 Development Environment Requirements**<br/>
+5.4.1.3 The database storage and retrieval shall require using Heroku and SQL.<br/>
+
+**5.4.2 Execution Environment Requirements**<br/>
+5.4.2.1 Hardware Requirements<br/>
+The application shall not require any special computing hardware to operate.<br/>
+
+5.4.2.2 Software Requirements<br/>
+Modern web browsers such as Google Chrome 53.0 and up, Firefox 50.0 and Safari 9.1.
